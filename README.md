@@ -112,10 +112,6 @@ uptime across key systems.
 - **Description**: Innovated an AI-driven virtual assistant, Scarlett, capable of executing a wide array of commands to facilitate efficient web navigation and desktop interactions, completed as part of a focused team effort within six months.
 - **Technologies used**: Python, Javascript, Django
 
-## 📈 GitHub Stats
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=virinchisai&layout=compact&theme=radical)
-
 ## 📫 How to reach me
 - **LinkedIn**: [Virinchi Sai](https://www.linkedin.com/in/virinchi-sai)
 - **Email**: saivirinchi103@gmail.com
