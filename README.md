@@ -36,13 +36,61 @@ uptime across key systems.
 - Enhanced user experience through responsive design and performance optimizations, achieving a 20% decrease in bounce rate by ensuring cross-device compatibility and improving site navigation.
 
 ## 🛠 Skills
-- Programming Languages: Python, Bash Scripting, Shell Scripting, C/C++, R, SQL
-- Web Development: PHP, HTML, CSS
-- Data Analysis: Actuarial Analysis, Descriptive Statistics, Financial Modeling
-- Databases: MySQL, MangoDB
-- Cloud and DevOps: AWS, Google Cloud Platform, Docker, GitHub Actions
-- Tools: Nagios, ServiceNow, Zabbix, Git, MS Office, Tableau, Visual Studio, WordPress
-- Others: Computer Networks, Linux/Unix
+👨‍💻 Programming Languages
+<p>
+    <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB.svg?logo=python&logoColor=white"></a>
+    <a href="#"><img alt="Bash Scripting" src="https://img.shields.io/badge/Bash-4EAA25.svg?logo=gnu-bash&logoColor=white"></a>
+    <a href="#"><img alt="Shell Scripting" src="https://img.shields.io/badge/Shell_Scripting-121011.svg?logo=gnu-bash&logoColor=white"></a>
+    <a href="#"><img alt="C" src="https://img.shields.io/badge/C-00599C.svg?logo=c&logoColor=white"></a>
+    <a href="#"><img alt="C++" src="https://img.shields.io/badge/C++-004482.svg?logo=c%2B%2B&logoColor=white"></a>
+    <a href="#"><img alt="R" src="https://img.shields.io/badge/R-276DC3.svg?logo=r&logoColor=white"></a>
+    <a href="#"><img alt="SQL" src="https://img.shields.io/badge/SQL-4479A1.svg?logo=sql&logoColor=white"></a>
+    <a href="#"><img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4.svg?logo=php&logoColor=white"></a>
+    <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
+    <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
+</p>
+📊 Data Analysis
+<p>
+    <a href="#"><img alt="Actuarial Analysis" src="https://img.shields.io/badge/Actuarial_Analysis-FFD700.svg?logo=data&logoColor=white"></a>
+    <a href="#"><img alt="Descriptive Statistics" src="https://img.shields.io/badge/Descriptive_Statistics-FF6347.svg?logo=statistics&logoColor=white"></a>
+    <a href="#"><img alt="Financial Modeling" src="https://img.shields.io/badge/Financial_Modeling-20B2AA.svg?logo=finance&logoColor=white"></a>
+</p>
+🗄️ Databases
+<p>
+    <a href="#"><img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1.svg?logo=mysql&logoColor=white"></a>
+    <a href="#"><img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248.svg?logo=mongodb&logoColor=white"></a>
+</p>
+☁️ Cloud and DevOps
+<p>
+    <a href="#"><img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E.svg?logo=amazon-aws&logoColor=white"></a>
+    <a href="#"><img alt="Google Cloud Platform" src="https://img.shields.io/badge/Google_Cloud-4285F4.svg?logo=google-cloud&logoColor=white"></a>
+    <a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED.svg?logo=docker&logoColor=white"></a>
+    <a href="#"><img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF.svg?logo=github-actions&logoColor=white"></a>
+</p>
+
+🌐 Web Development
+<p>
+    <a href="#"><img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4.svg?logo=php&logoColor=white"></a>
+    <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
+    <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
+</p>
+
+💻 Tools
+<p>
+    <a href="#"><img alt="Nagios" src="https://img.shields.io/badge/Nagios-000000.svg?logo=nagios&logoColor=white"></a>
+    <a href="#"><img alt="ServiceNow" src="https://img.shields.io/badge/ServiceNow-FF6C37.svg?logo=servicenow&logoColor=white"></a>
+    <a href="#"><img alt="Zabbix" src="https://img.shields.io/badge/Zabbix-000000.svg?logo=zabbix&logoColor=white"></a>
+    <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05032.svg?logo=git&logoColor=white"></a>
+    <a href="#"><img alt="MS Office" src="https://img.shields.io/badge/MS%20Office-D83B01.svg?logo=microsoft-office&logoColor=white"></a>
+    <a href="#"><img alt="Tableau" src="https://img.shields.io/badge/Tableau-E97627.svg?logo=tableau&logoColor=white"></a>
+    <a href="#"><img alt="Visual Studio" src="https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?logo=visual-studio&logoColor=white"></a>
+    <a href="#"><img alt="WordPress" src="https://img.shields.io/badge/WordPress-21759B.svg?logo=wordpress&logoColor=white"></a>
+</p>
+🕸️ Others
+<p>
+    <a href="#"><img alt="Computer Networks" src="https://img.shields.io/badge/Computer%20Networks-0089D6.svg?logo=network&logoColor=white"></a>
+    <a href="#"><img alt="Linux/Unix" src="https://img.shields.io/badge/Linux/Unix-FCC624.svg?logo=linux&logoColor=black"></a>
+</p>
 
 ## 🚀 Projects
 ### Face Mask Detection
