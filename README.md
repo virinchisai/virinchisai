@@ -1,7 +1,14 @@
-# Virinchi Sai Athmakuri
+# Virinchi Sai Athmakuri <a href="https://www.aswinbarath.me/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></a>
 
-## 👋 Introduction
-Hello there! I'm Virinchi Sai Athmakuri. Welcome to my GitHub profile! I'm a Graduate Assistant and aspiring IT professional specializing in Network and Computer Security with a passion for creating innovative solutions in digital audio processing, database management, and network security. Currently, I'm actively engaged in deepfake audio detection research and contributing to projects with significant impact, including achieving a 90% accuracy rate in identifying synthetic audio samples.
+<a href="https://www.linkedin.com/in/virinchi-sai-athmakuri-0a4a9a1b6/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="virinchi-sai-athmakuri" height="30" width="40" /></a>
+&nbsp;
+<a href="https://www.instagram.com/virinchi_sai/?hl=en" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="virinchi_sai" height="30" width="40" /></a>
+&nbsp;
+
+
+## Introduction
+Greetings! I am Virinchi Sai Athmakuri, a zealous Graduate Assistant at the State University of New York Polytechnic Institute, where I am currently honing my expertise in Network and Computer Security. My professional journey, characterized by rigorous internships and impactful projects, has cultivated a deep-seated proficiency in a multitude of disciplines including digital audio processing, database management, and network security. My role has enabled me to contribute significantly to pioneering research, notably achieving a commendable 90% accuracy rate in deepfake audio detection, and to excel in diverse IT domains through positions at notable organizations such as ConnX Inc., Salesforce, and Cisco.My GitHub profile serves as a testament to my dedication to innovation, showcasing projects that span the spectrum of my technical acumen and collaborative achievements. I invite you to explore my contributions to the field of IT, reflecting my relentless pursuit of excellence and my commitment to driving technological advancement.
+
 
 ## 📚 Education
 - **Master's in Network and Computer Security**, State University of New York Polytechnic Institute, August 2023 - May 2025 (GPA: 3.9)
@@ -114,6 +121,30 @@ uptime across key systems.
 - **LinkedIn**: [Virinchi Sai](https://www.linkedin.com/in/virinchi-sai)
 - **Email**: saivirinchi103@gmail.com
 - **HackerRank Profile**: [Your HackerRank Profile](https://www.hackerrank.com/profile/CSE_160719733099)
+
+## 📑 Research Papers
+
+I am proud to share my contributions to the field through several published research papers:
+
+1. **Intelligent Handwritten Digit Detection using CNN**
+   - **Publication**: ICAISC-2022, GIJET, Scopus-indexed
+   - **ISBN**: 978-81-955890-3-6
+   - **Grenze ID**: 01.GIJET.9.1.656
+   - **Abstract**: This paper presents a novel approach to handwritten digit detection utilizing Convolutional Neural Networks (CNN), demonstrating significant advancements in educational technologies and digital data processing.
+
+2. **Tachyon: Bike Rentals Made Easy**
+   - **Publication**: ICAISC-2022, GIJET, Scopus-indexed
+   - **ISBN**: 978-81-955890-3-6
+   - **Grenze ID**: 01.GIJET.9.1.658
+   - **Abstract**: An exploration of a streamlined bike rental system to enhance urban mobility, Tachyon showcases the intersection of technology and sustainable transport solutions.
+
+3. **Scarlett: Virtual Assistant & Browlett (Browser)**
+   - **Publication**: AICTE Sponsored ICAISC-2022, GIJET, Scopus-indexed
+   - **ISBN**: 978-81-955890-3-6
+   - **Grenze ID**: 01.GIJET.9.1.645
+   - **Abstract**: Detailing the development of an AI-driven virtual assistant alongside a customized web browser, this paper illustrates the potential of artificial intelligence in enhancing online navigation and interaction efficiency.
+
+Each project reflects my dedication to pushing the boundaries of technology and my commitment to contributing valuable insights and innovations to the tech community.
 
 Feel free to explore my repositories and don't hesitate to reach out if you want to collaborate on a project or just have a chat!
 
