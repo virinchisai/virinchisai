@@ -1,4 +1,4 @@
-# Virinchi Sai Athmakuri <a href="https://www.aswinbarath.me/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></a>
+# Virinchi Sai Athmakuri <a href="."><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></a>
 
 <a href="https://www.linkedin.com/in/virinchi-sai-athmakuri-0a4a9a1b6/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="virinchi-sai-athmakuri" height="30" width="40" /></a>
 &nbsp;
