@@ -4,7 +4,7 @@
 
 ### GenAI Engineer | Applied AI Engineer | LLM Engineer | AI Platform Engineer
 
-Building secure RAG systems, AI-powered cybersecurity applications, and cloud-native platforms.
+Building secure RAG systems, AI-powered cybersecurity applications, and cloud-native platforms for production-minded AI workflows.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/virinchisaiathmakuri/)
 [![Email](https://img.shields.io/badge/Email-saivirinchi103%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saivirinchi103@gmail.com)
@@ -16,15 +16,17 @@ New York, USA | Open to relocation
 
 ## About Me
 
-I build applied AI systems that combine LLMs, retrieval, backend engineering, and security controls into production-minded products. My work focuses on secure GenAI applications, AI-assisted cybersecurity tooling, and platform infrastructure for enterprise AI workflows.
+I build applied AI systems that combine LLMs, retrieval, backend engineering, and security controls into usable products. My work focuses on production-ready GenAI applications, secure AI workflows, AI-assisted cybersecurity tooling, and cloud-native platform design.
+
+I am especially interested in the engineering layer between model capability and system reliability: grounded retrieval, inference orchestration, auditability, secure deployment, evaluation, and infrastructure that can support enterprise AI use cases.
 
 ## Current Focus
 
 - Secure RAG systems for enterprise and cybersecurity workflows
-- LLM backends using FastAPI, LangChain, vector search, and local or hosted inference
+- LLM application backends using FastAPI, LangChain, vector search, and local or hosted inference
 - AI platform patterns for privacy-sensitive environments
-- Event-driven pipelines, observability, and detection engineering
-- AI security, auditability, and controlled access patterns
+- Cloud-native event pipelines, observability, and detection engineering
+- AI security topics including prompt injection resistance, audit logging, and controlled access patterns
 
 ## Technical Expertise
 
@@ -36,19 +38,32 @@ I build applied AI systems that combine LLMs, retrieval, backend engineering, an
 | Platform and DevOps | Docker, Kubernetes, GitHub Actions, Terraform, AWS, GCP, MLflow, Kubeflow |
 | Security and observability | JWT, audit logging, prompt injection guardrails, Splunk, ELK, Prometheus, Grafana, Snort, Suricata |
 
-## Selected Projects
+## Featured Projects
 
 ### [SecureAI SOC Copilot](https://github.com/virinchisai/secureai-soc-copilot)
 
-Secure GenAI assistant for SOC analysts with grounded RAG over security logs, JWT-protected workflows, audit logging, and support for local or hosted inference.
+Secure GenAI assistant for SOC analysts that supports grounded investigation over security logs and reports.
+
+- Built with FastAPI, Streamlit, LangChain, and FAISS for authenticated document ingestion and retrieval.
+- Supports local Ollama, OpenAI, and Anthropic-compatible inference paths.
+- Includes JWT authentication, per-user vector isolation, source-backed answers, and audit logging.
+- Designed for privacy-aware, analyst-facing workflows where grounded output matters more than generic chat.
 
 ### [Secure Agentic CloudOps SIEM Platform](https://github.com/virinchisai/secure-agentic-cloudops-siem-platform)
 
-Cloud-native SIEM platform built around FastAPI, Redpanda/Kafka, PostgreSQL, and Docker for event ingestion, streaming detection, and alert persistence.
+Cloud-native SIEM-style platform for event ingestion, streaming detection, and alert persistence with a roadmap toward agentic security automation.
+
+- Built around FastAPI services, Redpanda/Kafka, PostgreSQL, and Dockerized local infrastructure.
+- Emphasizes decoupled ingestion, event processing, detection scoring, and investigation-ready storage.
+- Provides a credible platform foundation for future AI-assisted triage, retrieval, and response workflows.
 
 ### [PageMint Offline](https://github.com/virinchisai/PageMint-Offline)
 
-Privacy-first offline document processing application for local Markdown conversion with secure localhost execution and optional MCP integration.
+Privacy-first offline document processing application for converting mixed files to Markdown without cloud upload.
+
+- Built on Microsoft MarkItDown with secure localhost execution and local-only processing.
+- Supports combined or separate Markdown export flows for multi-file batches.
+- Includes optional MCP integration for trusted desktop AI clients and local tooling workflows.
 
 ## Publications & Research
 
@@ -56,7 +71,7 @@ Privacy-first offline document processing application for local Markdown convers
   *Forensic Sciences, 2024*
 - **Design and Implementation of an AI Virtual Mouse Using Hand Gesture Recognition**  
   *March 2024*
-- Research interests include deepfake detection, adversarial ML, secure inference, retrieval-backed AI systems, and cybersecurity-focused AI applications.
+- Research interests include deepfake detection, adversarial machine learning, secure inference, retrieval-backed AI systems, and cybersecurity-focused AI applications.
 
 ## Contact
 
