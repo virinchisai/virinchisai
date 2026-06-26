@@ -2,9 +2,9 @@
 
 # Virinchi Sai Athmakuri
 
-### GenAI and AI Security Engineer
+### GenAI Engineer | Applied AI Engineer | LLM Engineer | AI Platform Engineer
 
-Building secure RAG systems, agentic AI workflows, and cloud-native ML platforms
+Building secure RAG systems, AI-powered cybersecurity applications, and cloud-native platforms for production-minded AI workflows.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/virinchisaiathmakuri/)
 [![Email](https://img.shields.io/badge/Email-saivirinchi103%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saivirinchi103@gmail.com)
@@ -16,128 +16,65 @@ New York, USA | Open to relocation
 
 ## About Me
 
-I am an AI/ML and cloud engineer focused on building secure, production-minded
-GenAI systems. My work spans retrieval-augmented generation, LLM security,
-adversarial machine learning, cloud observability, and event-driven security
-platforms.
+I build applied AI systems that combine LLMs, retrieval, backend engineering, and security controls into usable products. My work focuses on production-ready GenAI applications, secure AI workflows, AI-assisted cybersecurity tooling, and cloud-native platform design.
 
-At SUNY Polytechnic Institute, I work on applied AI research involving RAG,
-secure inference, deep learning, and adversarial robustness for
-cybersecurity-focused applications. I enjoy taking ideas from architecture to a
-working system: APIs, retrieval pipelines, model integration, evaluation,
-containerization, observability, and security controls.
+I am especially interested in the engineering layer between model capability and system reliability: grounded retrieval, inference orchestration, auditability, secure deployment, evaluation, and infrastructure that can support enterprise AI use cases.
 
-**Current interests:** secure enterprise AI, agentic workflows, AI red teaming,
-LLM evaluation, cybersecurity automation, and scalable MLOps.
+## Current Focus
+
+- Secure RAG systems for enterprise and cybersecurity workflows
+- LLM application backends using FastAPI, LangChain, vector search, and local or hosted inference
+- AI platform patterns for privacy-sensitive environments
+- Cloud-native event pipelines, observability, and detection engineering
+- AI security topics including prompt injection resistance, audit logging, and controlled access patterns
+
+## Technical Expertise
+
+| Area | Technologies |
+| --- | --- |
+| GenAI systems | RAG, LangChain, LlamaIndex, embeddings, prompt orchestration, model routing, function calling |
+| Applied ML | PyTorch, TensorFlow, scikit-learn, deep learning, adversarial ML, model experimentation |
+| Backend and data | Python, FastAPI, Flask, PostgreSQL, PGVector, SQLite, REST APIs, event-driven design |
+| Platform and DevOps | Docker, Kubernetes, GitHub Actions, Terraform, AWS, GCP, MLflow, Kubeflow |
+| Security and observability | JWT, audit logging, prompt injection guardrails, Splunk, ELK, Prometheus, Grafana, Snort, Suricata |
 
 ## Featured Projects
 
 ### [SecureAI SOC Copilot](https://github.com/virinchisai/secureai-soc-copilot)
 
-A local-first RAG assistant for investigating cybersecurity logs and reports.
+Secure GenAI assistant for SOC analysts that supports grounded investigation over security logs and reports.
 
-- Built a FastAPI and Streamlit application with JWT-protected upload and chat
-  workflows.
-- Supports PDF, TXT, and LOG ingestion, recursive chunking, per-user FAISS
-  indexes, and grounded answers with source citations.
-- Includes Ollama, OpenAI, and Claude provider options, prompt-injection
-  detection, SHA-256 file metadata, and SQLite audit logging.
-- Added Docker Compose, automated tests, GitHub Actions, CodeQL, Dependabot,
-  secret-scanning guidance, and an MIT license.
-
-`Python` `FastAPI` `Streamlit` `LangChain` `FAISS` `Ollama` `OpenAI` `Claude` `Docker`
+- Built with FastAPI, Streamlit, LangChain, and FAISS for authenticated document ingestion and retrieval.
+- Supports local Ollama, OpenAI, and Anthropic-compatible inference paths.
+- Includes JWT authentication, per-user vector isolation, source-backed answers, and audit logging.
+- Designed for privacy-aware, analyst-facing workflows where grounded output matters more than generic chat.
 
 ### [Secure Agentic CloudOps SIEM Platform](https://github.com/virinchisai/secure-agentic-cloudops-siem-platform)
 
-An event-driven security and CloudOps platform for log ingestion, streaming,
-detection, and alert persistence.
+Cloud-native SIEM-style platform for event ingestion, streaming detection, and alert persistence with a roadmap toward agentic security automation.
 
-- Designed a decoupled pipeline using FastAPI, Redpanda/Kafka, detection
-  services, and PostgreSQL.
-- Implemented normalized event ingestion, streaming detection, scored alerts,
-  and end-to-end local validation.
-- Documented a roadmap for contextual retrieval, agentic reasoning, automated
-  remediation, observability, and secure cloud deployment.
+- Built around FastAPI services, Redpanda/Kafka, PostgreSQL, and Dockerized local infrastructure.
+- Emphasizes decoupled ingestion, event processing, detection scoring, and investigation-ready storage.
+- Provides a credible platform foundation for future AI-assisted triage, retrieval, and response workflows.
 
-`Python` `FastAPI` `Redpanda` `Kafka` `PostgreSQL` `Docker`
+### [PageMint Offline](https://github.com/virinchisai/PageMint-Offline)
 
-### [AI Virtual Mouse](https://github.com/virinchisai/Ai-Virtual-Mouse)
+Privacy-first offline document processing application for converting mixed files to Markdown without cloud upload.
 
-A computer-vision interface that uses hand landmarks and gesture recognition
-for real-time cursor control.
+- Built on Microsoft MarkItDown with secure localhost execution and local-only processing.
+- Supports combined or separate Markdown export flows for multi-file batches.
+- Includes optional MCP integration for trusted desktop AI clients and local tooling workflows.
 
-`Python` `OpenCV` `MediaPipe` `Computer Vision`
+## Publications & Research
 
-## Technical Focus
+- **Video and Audio Deepfake Datasets and Open Issues in Deepfake Technology**  
+  *Forensic Sciences, 2024*
+- **Design and Implementation of an AI Virtual Mouse Using Hand Gesture Recognition**  
+  *March 2024*
+- Research interests include deepfake detection, adversarial machine learning, secure inference, retrieval-backed AI systems, and cybersecurity-focused AI applications.
 
-| Area | Technologies |
-| --- | --- |
-| GenAI and LLM systems | RAG, LangChain, LlamaIndex, embeddings, vLLM, LoRA/QLoRA, PEFT, function calling, prompt engineering |
-| Machine learning | PyTorch, TensorFlow, scikit-learn, CNN-LSTM, autoencoders, transfer learning, adversarial ML |
-| Backend and data | Python, FastAPI, Flask, SQL, PostgreSQL, PGVector, Kafka, Airflow |
-| Cloud and MLOps | AWS, GCP, Docker, Kubernetes, Terraform, MLflow, Kubeflow, GitHub Actions, Jenkins |
-| Security and observability | LLM red teaming, prompt-injection testing, RBAC, Splunk, ELK, Prometheus, Grafana, Snort, Suricata |
+## Contact
 
-## Experience Highlights
-
-**GenAI Engineer, SUNY Polytechnic Institute**
-
-*January 2026 - Present*
-
-- Developing applied AI systems for contextual retrieval, summarization, and
-  grounded question answering using LangChain, LlamaIndex, FastAPI, and
-  PostgreSQL/PGVector.
-- Building reproducible ML and deep-learning workflows for secure AI and
-  cybersecurity research.
-
-**GenAI Systems Research Engineer, SUNY Polytechnic Institute**
-
-*July 2025 - December 2025*
-
-- Built a secure offline LLM platform for privacy-sensitive environments using
-  OpenWebUI, RAG, FastAPI, and local model serving.
-- Evaluated prompt injection, jailbreak, and red-team attacks and contributed
-  to secure API, network, encryption, and containerization strategies.
-
-**Data and Cloud Engineer, ConnX AI**
-
-*April 2023 - July 2023*
-
-- Automated cloud observability and operational diagnostics using Python,
-  Prometheus, Grafana, Nagios, Zabbix, and AWS CloudWatch.
-- Developed real-time log analytics, anomaly detection, IP reputation, routing
-  diagnostics, and containerized CI/CD workflows.
-
-## Research and Publications
-
-- **Video and Audio Deepfake Datasets and Open Issues in Deepfake Technology**
-  - *Forensic Sciences, 2024*
-- **Design and Implementation of an AI Virtual Mouse Using Hand Gesture
-  Recognition**
-  - *Volume 14, Number 1, March 2024*
-- **An Intelligent Way to Recognize Digits Using Convolutional Neural Networks**
-- **Scarlett: Virtual Assistant and Browlett Browser**
-- **Tachyon: Bike Rentals Made Easy**
-
-My deepfake-audio research included a survey of more than 30 studies covering
-datasets, detection methods, and open challenges in forensic AI.
-
-## Education and Certifications
-
-- **M.S., Network and Computer Security** - SUNY Polytechnic Institute
-- **B.E., Computer Science** - Methodist Engineering College
-- **CompTIA Security+ (SY0-701)**
-- **AWS Academy Cloud Foundations**
-- **Google Cloud Ready Facilitator**
-- **Cisco DevNet, Cybersecurity, and Networking Essentials**
-
-## What I Am Building Toward
-
-I am interested in engineering roles where AI quality, security, and systems
-design matter together. I am especially excited by work involving enterprise
-RAG, AI agents, model evaluation, AI security, cybersecurity automation, and
-cloud-native ML platforms.
-
-For collaboration or opportunities, reach me at
-[saivirinchi103@gmail.com](mailto:saivirinchi103@gmail.com) or connect on
-[LinkedIn](https://www.linkedin.com/in/virinchisaiathmakuri/).
+- Email: [saivirinchi103@gmail.com](mailto:saivirinchi103@gmail.com)
+- LinkedIn: [linkedin.com/in/virinchisaiathmakuri](https://www.linkedin.com/in/virinchisaiathmakuri/)
+- GitHub: [github.com/virinchisai](https://github.com/virinchisai)
