@@ -27,10 +27,37 @@ cybersecurity-focused applications. I enjoy taking ideas from architecture to a
 working system: APIs, retrieval pipelines, model integration, evaluation,
 containerization, observability, and security controls.
 
-**Current interests:** secure enterprise AI, agentic workflows, AI red teaming,
-LLM evaluation, cybersecurity automation, and scalable MLOps.
+**Current interests:** secure enterprise AI, agentic workflows on the Model
+Context Protocol (MCP), AI red teaming, LLM evaluation, cybersecurity
+automation, and scalable MLOps.
 
 ## Featured Projects
+
+### [SentinelAI — Secure Enterprise AI Workspace](https://github.com/virinchisai/sentinel-ai)
+
+A self-hostable agent platform that securely connects employees to internal
+knowledge, code, email, calendar, and operational tools — built on the
+Model Context Protocol (MCP).
+
+- Built a FastAPI gateway with JWT authentication, RBAC, bcrypt password
+  hashing, password-strength policy, rate limiting, token revocation, and a
+  full audit log.
+- Implemented a planner-driven agent loop with retry, structured tool traces,
+  human-approval gating on destructive actions, and a provider-agnostic LLM
+  layer (Anthropic and OpenAI).
+- Shipped 18 MCP tools across 7 connectors: GitHub, Gmail, Calendar,
+  sandboxed File System, read-only PostgreSQL, RAG knowledge base, and system
+  tools.
+- Added RAG over Markdown and PDF docs with heading-aware chunking,
+  citations, and Chroma or PGVector backends.
+- Built a Next.js 14 frontend (login, chat with tool-call viewer, document
+  upload, settings) and one-click Codespaces support for cloud demos.
+- Hardened with HSTS, CSP, X-Frame-Options, CodeQL SAST, Dependabot, 16
+  security regression tests, and a published SECURITY.md threat model.
+- Containerized for Docker Compose and Kubernetes with Prometheus metrics
+  and structured logging.
+
+`Python` `FastAPI` `Next.js` `MCP` `JWT` `RBAC` `RAG` `Chroma` `PGVector` `Anthropic` `OpenAI` `Docker` `Kubernetes` `Prometheus` `CodeQL`
 
 ### [SecureAI SOC Copilot](https://github.com/virinchisai/secureai-soc-copilot)
 
