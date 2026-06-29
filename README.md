@@ -114,12 +114,12 @@ for real-time cursor control.
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=virinchisai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE" height="150" alt="Virinchi Sai's top languages" />
 
-### Contribution Graph
+### Contribution Game
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/virinchisai/virinchisai/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/virinchisai/virinchisai/output/github-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/virinchisai/virinchisai/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/virinchisai/virinchisai/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/virinchisai/virinchisai/output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man contribution graph animation" src="https://raw.githubusercontent.com/virinchisai/virinchisai/output/pacman-contribution-graph.svg" />
 </picture>
 
 </div>
