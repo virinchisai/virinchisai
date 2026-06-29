@@ -111,16 +111,16 @@ for real-time cursor control.
 
 ### Mission Control
 
-<img src="https://github-readme-stats.vercel.app/api?username=virinchisai&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE" height="165" alt="Virinchi Sai's GitHub stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=virinchisai&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=F97316&currStreakLabel=22D3EE" height="165" alt="Virinchi Sai's GitHub streak" />
+<img src="https://github-readme-stats.vercel.app/api?username=virinchisai&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF4ECD&text_color=E5F7FF&icon_color=FFE66D" height="165" alt="Virinchi Sai's GitHub stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=virinchisai&theme=radical&hide_border=true&background=0D1117&ring=FF4ECD&fire=FFE66D&currStreakLabel=00F5D4&sideNums=FFE66D&sideLabels=E5F7FF&dates=A78BFA" height="165" alt="Virinchi Sai's GitHub streak" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=virinchisai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE" height="150" alt="Virinchi Sai's top languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=virinchisai&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F5D4&text_color=E5F7FF" height="150" alt="Virinchi Sai's top languages" />
 
 ### Build Dashboard
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=virinchisai&theme=tokyonight" alt="GitHub profile summary" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=virinchisai&theme=tokyonight" height="180" alt="Repositories per language" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=virinchisai&theme=tokyonight" height="180" alt="Most committed languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=virinchisai&theme=dracula" alt="GitHub profile summary" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=virinchisai&theme=dracula" height="180" alt="Repositories per language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=virinchisai&theme=dracula" height="180" alt="Most committed languages" />
 
 ### Pac-Man Contribution Run
 
@@ -132,7 +132,7 @@ for real-time cursor control.
 
 ### Activity Radar
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=virinchisai&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=22D3EE&line=F97316&point=FFFFFF&area=true&area_color=22D3EE" alt="GitHub activity graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=virinchisai&theme=react-dark&hide_border=true&bg_color=0D1117&color=FF4ECD&line=00F5D4&point=FFE66D&area=true&area_color=7C3AED" alt="GitHub activity graph" />
 
 </div>
 
