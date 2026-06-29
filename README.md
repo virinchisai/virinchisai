@@ -105,22 +105,34 @@ for real-time cursor control.
 | Cloud and MLOps | AWS, GCP, Docker, Kubernetes, Terraform, MLflow, Kubeflow, GitHub Actions, Jenkins |
 | Security and observability | LLM red teaming, prompt-injection testing, RBAC, Splunk, ELK, Prometheus, Grafana, Snort, Suricata |
 
-## GitHub Activity
+## GitHub Arcade
 
 <div align="center">
+
+### Mission Control
 
 <img src="https://github-readme-stats.vercel.app/api?username=virinchisai&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE" height="165" alt="Virinchi Sai's GitHub stats" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=virinchisai&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=F97316&currStreakLabel=22D3EE" height="165" alt="Virinchi Sai's GitHub streak" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=virinchisai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE" height="150" alt="Virinchi Sai's top languages" />
 
-### Contribution Game
+### Build Dashboard
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=virinchisai&theme=tokyonight" alt="GitHub profile summary" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=virinchisai&theme=tokyonight" height="180" alt="Repositories per language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=virinchisai&theme=tokyonight" height="180" alt="Most committed languages" />
+
+### Pac-Man Contribution Run
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/virinchisai/virinchisai/output/pacman-contribution-graph-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/virinchisai/virinchisai/output/pacman-contribution-graph.svg" />
   <img alt="Pac-Man contribution graph animation" src="https://raw.githubusercontent.com/virinchisai/virinchisai/output/pacman-contribution-graph.svg" />
 </picture>
+
+### Activity Radar
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=virinchisai&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=22D3EE&line=F97316&point=FFFFFF&area=true&area_color=22D3EE" alt="GitHub activity graph" />
 
 </div>
 
