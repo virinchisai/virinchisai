@@ -4,7 +4,7 @@
 
 ### GenAI and AI Security Engineer
 
-Building secure RAG systems, agentic AI workflows, and cloud-native ML platforms
+Building AI agents, evidence-backed RAG systems, and tools for AI reliability
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/virinchisaiathmakuri/)
 [![Email](https://img.shields.io/badge/Email-saivirinchi103%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saivirinchi103@gmail.com)
@@ -16,94 +16,134 @@ New York, USA | Open to relocation
 
 ## About Me
 
-I am an AI/ML and cloud engineer focused on building secure, production-minded
-GenAI systems. My work spans retrieval-augmented generation, LLM security,
-adversarial machine learning, cloud observability, and event-driven security
-platforms.
+I am an AI/ML and cloud engineer focused on making AI systems useful,
+inspectable, and secure. My projects span MCP agents, retrieval-augmented
+generation, knowledge validation, test automation, and adversarial audio ML.
 
 At SUNY Polytechnic Institute, I work on applied AI research involving RAG,
 secure inference, deep learning, and adversarial robustness for
-cybersecurity-focused applications. I enjoy taking ideas from architecture to a
-working system: APIs, retrieval pipelines, model integration, evaluation,
-containerization, observability, and security controls.
+cybersecurity-focused applications. Across my public projects, I connect
+working applications with source provenance, explicit permissions, evaluation,
+and reproducible evidence.
 
-**Current interests:** secure enterprise AI, agentic workflows on the Model
-Context Protocol (MCP), AI red teaming, LLM evaluation, cybersecurity
-automation, and scalable MLOps.
+**Current interests:** local AI, agentic workflows on the Model Context
+Protocol (MCP), RAG evaluation, AI red teaming, knowledge reliability,
+cybersecurity automation, and MLOps.
 
 ## Featured Projects
 
 ### [SentinelAI — Secure Enterprise AI Workspace](https://github.com/virinchisai/sentinel-ai)
 
-A self-hostable agent platform that securely connects employees to internal
-knowledge, code, email, calendar, and operational tools — built on the
-Model Context Protocol (MCP).
+A self-hostable AI workspace for document investigation and approved actions
+across connected tools. The current v2 release targets a small-team pilot.
 
-- Built a FastAPI gateway with JWT authentication, RBAC, bcrypt password
-  hashing, password-strength policy, rate limiting, token revocation, and a
-  full audit log.
-- Implemented a planner-driven agent loop with retry, structured tool traces,
-  human-approval gating on destructive actions, and a provider-agnostic LLM
-  layer (Anthropic and OpenAI).
-- Shipped 18 MCP tools across 7 connectors: GitHub, Gmail, Calendar,
-  sandboxed File System, read-only PostgreSQL, RAG knowledge base, and system
-  tools.
-- Added RAG over Markdown and PDF docs with heading-aware chunking,
-  citations, and Chroma or PGVector backends.
-- Built a Next.js 14 frontend (login, chat with tool-call viewer, document
-  upload, settings) and one-click Codespaces support for cloud demos.
-- Hardened with HSTS, CSP, X-Frame-Options, CodeQL SAST, Dependabot, 16
-  security regression tests, and a published SECURITY.md threat model.
-- Containerized for Docker Compose and Kubernetes with Prometheus metrics
-  and structured logging.
+- Built local Ollama inference, streamed responses, persistent conversations,
+  and MCP tool execution with inspectable traces.
+- Added workspace-scoped retrieval, document previews and versioning, durable
+  ingestion jobs, and optional hybrid search with PostgreSQL/pgvector.
+- Implemented exact, expiring action approvals, encrypted per-user connector
+  credentials, JWT/RBAC, and audit records.
 
-`Python` `FastAPI` `Next.js` `MCP` `JWT` `RBAC` `RAG` `Chroma` `PGVector` `Anthropic` `OpenAI` `Docker` `Kubernetes` `Prometheus` `CodeQL`
+[Architecture](https://github.com/virinchisai/sentinel-ai/blob/main/docs/architecture.md)
+· [v2 validation evidence](https://github.com/virinchisai/sentinel-ai/blob/main/docs/release-validation.md)
+
+`Python` `FastAPI` `Next.js` `MCP` `Ollama` `PostgreSQL` `pgvector` `Docker`
+
+### [AmendLens — Financial Evidence Workspace](https://github.com/virinchisai/amendlens)
+
+A local application for tracing financial figures to source documents and
+seeing how corrections change a report.
+
+- Built document import, source quotes, human fact review, and deterministic
+  financial calculations using Python Decimal.
+- Preserved dated report snapshots and source hashes so comparisons distinguish
+  changed values from changed supporting evidence.
+- Added cited retrieval with optional local Ollama inference, SQLite
+  persistence, and Markdown/JSON exports.
+
+[Demo walkthrough](https://github.com/virinchisai/amendlens/blob/main/demo/walkthrough.mp4)
+· [Release scope and validation](https://github.com/virinchisai/amendlens/blob/main/STATUS.md)
+
+`Python` `SQLite` `JavaScript` `Ollama` `Document Processing` `Source Provenance`
+
+### [Knowledge Reliability CI](https://github.com/virinchisai/knowledge-reliability-ci)
+
+A model-independent quality gate for knowledge before it reaches RAG systems
+and AI agents.
+
+- Implemented deterministic checks for stale, unsupported, contradictory, and
+  improperly classified claims, plus common prompt-injection indicators.
+- Added SHA-256 source-drift checks, knowledge regression tests, and
+  source-to-claim impact analysis.
+- Exported SARIF findings, a Knowledge Bill of Materials (KBOM), and portable
+  Markdown bundles using a Python standard-library core.
+
+[Architecture](https://github.com/virinchisai/knowledge-reliability-ci/blob/main/docs/ARCHITECTURE.md)
+· [Seeded benchmark and limits](https://github.com/virinchisai/knowledge-reliability-ci/blob/main/docs/BENCHMARK.md)
+
+`Python` `GitHub Actions` `SARIF` `SHA-256` `Knowledge Validation`
+
+### [QualityPilot — TestOps and Release Evidence](https://github.com/virinchisai/QualityPilot)
+
+A local testing platform connecting requirements, automated checks, execution
+evidence, and release decisions.
+
+- Converts requirements into structured test cases and Gherkin with traceability
+  back to the original requirement.
+- Exercises a JWT/RBAC demo application through API, browser, BDD, security,
+  and accessibility checks.
+- Records test history and artifacts, analyzes failures and likely flaky tests,
+  and applies configurable release gates. Optional Ollama summaries support
+  the deterministic analysis.
+
+[Demo](https://github.com/virinchisai/QualityPilot/blob/master/docs/assets/qualitypilot-demo.gif)
+· [Architecture](https://github.com/virinchisai/QualityPilot/blob/master/ARCHITECTURE.md)
+
+`Python` `FastAPI` `Streamlit` `pytest` `Playwright` `Behave` `SQLite`
+
+### [GhostPrint — Voice Disguise Research](https://github.com/virinchisai/ghostprint)
+
+An experimental speaker re-identification project studying whether prosody and
+rhythm complement conventional voiceprints under simulated voice disguise.
+
+- Built a PyTorch BiGRU prosody encoder and compared it with ECAPA voiceprints
+  and score fusion on held-out LibriSpeech speakers.
+- Evaluated pitch, formant, and tempo transformations with rank-1 identification
+  and equal-error-rate measurements.
+- Published result tables and a formant sweep, including the limits of weak
+  standalone prosody accuracy and simulated attacks.
+
+[Results and figures](https://github.com/virinchisai/ghostprint/blob/main/RESULTS.md)
+· [Project guide](https://github.com/virinchisai/ghostprint/blob/main/PROJECT_GUIDE.md)
+
+`Python` `PyTorch` `SpeechBrain` `BiGRU` `Audio ML` `Adversarial Evaluation`
 
 ### [SecureAI SOC Copilot](https://github.com/virinchisai/secureai-soc-copilot)
 
-A local-first RAG assistant for investigating cybersecurity logs and reports.
+A local-first RAG assistant for asking evidence-backed questions over
+cybersecurity logs and reports.
 
-- Built a FastAPI and Streamlit application with JWT-protected upload and chat
-  workflows.
-- Supports PDF, TXT, and LOG ingestion, recursive chunking, per-user FAISS
-  indexes, and grounded answers with source citations.
-- Includes Ollama, OpenAI, and Claude provider options, prompt-injection
-  detection, SHA-256 file metadata, and SQLite audit logging.
-- Added Docker Compose, automated tests, GitHub Actions, CodeQL, Dependabot,
-  secret-scanning guidance, and an MIT license.
+- Built PDF/TXT/LOG ingestion, per-user FAISS indexes, and answers with
+  citations and the exact retrieved source excerpts.
+- Added JWT-protected workflows, file hashes, SQLite audit records,
+  authenticated system status, and CSV audit export.
+- Supports local Ollama or hosted providers, Docker Compose, and automated
+  checks. The MVP uses a demo account and a basic phrase-based injection guard.
 
-`Python` `FastAPI` `Streamlit` `LangChain` `FAISS` `Ollama` `OpenAI` `Claude` `Docker`
+[Setup and demo flow](https://github.com/virinchisai/secureai-soc-copilot#demo-flow)
 
-### [Secure Agentic CloudOps SIEM Platform](https://github.com/virinchisai/secure-agentic-cloudops-siem-platform)
-
-An event-driven security and CloudOps platform for log ingestion, streaming,
-detection, and alert persistence.
-
-- Designed a decoupled pipeline using FastAPI, Redpanda/Kafka, detection
-  services, and PostgreSQL.
-- Implemented normalized event ingestion, streaming detection, scored alerts,
-  and end-to-end local validation.
-- Documented a roadmap for contextual retrieval, agentic reasoning, automated
-  remediation, observability, and secure cloud deployment.
-
-`Python` `FastAPI` `Redpanda` `Kafka` `PostgreSQL` `Docker`
-
-### [AI Virtual Mouse](https://github.com/virinchisai/Ai-Virtual-Mouse)
-
-A computer-vision interface that uses hand landmarks and gesture recognition
-for real-time cursor control.
-
-`Python` `OpenCV` `MediaPipe` `Computer Vision`
+`Python` `FastAPI` `Streamlit` `LangChain` `FAISS` `Ollama` `Docker`
 
 ## Technical Focus
 
 | Area | Technologies |
 | --- | --- |
-| GenAI and LLM systems | RAG, LangChain, LlamaIndex, embeddings, vLLM, LoRA/QLoRA, PEFT, function calling, prompt engineering |
-| Machine learning | PyTorch, TensorFlow, scikit-learn, CNN-LSTM, autoencoders, transfer learning, adversarial ML |
-| Backend and data | Python, FastAPI, Flask, SQL, PostgreSQL, PGVector, Kafka, Airflow |
-| Cloud and MLOps | AWS, GCP, Docker, Kubernetes, Terraform, MLflow, Kubeflow, GitHub Actions, Jenkins |
-| Security and observability | LLM red teaming, prompt-injection testing, RBAC, Splunk, ELK, Prometheus, Grafana, Snort, Suricata |
+| GenAI and LLM systems | MCP, RAG, LangChain, Ollama, OpenAI/Anthropic adapters, tool calling, hybrid retrieval |
+| Machine learning and research | PyTorch, TensorFlow/Keras, SpeechBrain, BiGRU, CNNs, OpenCV, MediaPipe, adversarial evaluation |
+| Backend and data | Python, FastAPI, Flask, Node.js, PostgreSQL, pgvector, SQLite, FAISS, Kafka/Redpanda |
+| Interfaces and delivery | Next.js, React, TypeScript, JavaScript, Streamlit, Docker Compose, GitHub Actions |
+| Quality and reliability | pytest, Playwright, Behave, Gherkin, SARIF, release gates, source provenance, knowledge regression tests |
+| Security and observability | JWT, RBAC, action approvals, prompt-injection indicators, audit logging, CodeQL, Prometheus, Grafana |
 
 ## GitHub Arcade
 
@@ -199,3 +239,4 @@ cloud-native ML platforms.
 For collaboration or opportunities, reach me at
 [saivirinchi103@gmail.com](mailto:saivirinchi103@gmail.com) or connect on
 [LinkedIn](https://www.linkedin.com/in/virinchisaiathmakuri/).
+
