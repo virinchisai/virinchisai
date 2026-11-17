@@ -30,6 +30,26 @@ and reproducible evidence.
 Protocol (MCP), RAG evaluation, AI red teaming, knowledge reliability,
 cybersecurity automation, and MLOps.
 
+## Open Source Contributions
+
+### [NuGuardAI · AI Security](https://github.com/NuGuardAI/nuguard)
+
+Contributed to [NuGuard v0.9.17](https://github.com/NuGuardAI/nuguard/releases/tag/v0.9.17), with work on:
+
+- **Red-team reliability:** concurrency enforcement, engagement health checks,
+  and coverage reporting that separates execution from evaluation.
+- **AI-SBOM accuracy:** exact model identities, fewer false positives,
+  exclusion of test-only and pricing-only evidence, and secret redaction.
+- **Agent detection and relationships:** Deep Agents assemblies, typed
+  SubAgent mappings, and component-flow analysis.
+- **C# and Go support:** Semantic Kernel agent graphs, analysis adapters,
+  and target applications for pipeline testing.
+- **Behavior checks:** tool-call recording, canary-leak detection, and
+  tool calls in policy evaluation.
+
+[My merged pull requests](https://github.com/NuGuardAI/nuguard/pulls?q=is%3Apr+author%3Avirinchisai+is%3Amerged)
+· [Release notes](https://github.com/NuGuardAI/nuguard/releases/tag/v0.9.17)
+
 ## Featured Projects
 
 ### [SentinelAI — Secure Enterprise AI Workspace](https://github.com/virinchisai/sentinel-ai)
